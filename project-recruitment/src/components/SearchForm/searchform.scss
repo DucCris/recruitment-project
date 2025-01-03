@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  height: 400px;
+  width: 100%;
+  padding: 0 120px;
+  overflow: hidden; /* Loại bỏ tràn nội dung */
+
+  &__title {
+    // padding-top: 60px;
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+    font-size: 40px;
+
+    span {
+      display: block;
+      width: 500px;
+    }
+  }
+  &__banner {
+    margin-left: 80px;
+    // max-height: 300px;
+    max-width: 500px;
+    // width: 100%; /* Giới hạn chiều rộng */
+    object-fit: cover;
+    flex: 1;
+  }
+}
+.container {
+  //   display: flex;
+  padding: 20px;
+  margin-left: 100px;
+  width: 600px;
+}
